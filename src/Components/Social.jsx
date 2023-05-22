@@ -3,14 +3,17 @@ import { useState } from "react";
 
 // Icons
 import { AiFillGithub } from "react-icons/ai";
+import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 
 export const SocialMedias = () => {
   const [githubColor, setGithubColor] = useState("white");
   const [linkedinColor, setLinkedinColor] = useState("white");
+  const [whatsappColor, setWhatsappColor] = useState("white");
 
   const [githubHovered, setGithubHovered] = useState(false);
   const [linkedinHovered, setLinkedinHovered] = useState(false);
+  const [whatsappHovered, setWhatsappHovered] = useState(false);
 
   const handleEnterGithub = (setter) => {
     setter(true);
@@ -30,6 +33,16 @@ export const SocialMedias = () => {
   const handleLeaveLinkedin = (setter) => {
     setter(false);
     setLinkedinColor("white");
+  };
+
+  const handleEnterWhatsapp = (setter) => {
+    setter(true);
+    setWhatsappColor("#25D366");
+  };
+
+  const handleLeaveWhatsapp = (setter) => {
+    setter(false);
+    setWhatsappColor("white");
   };
 
   return (
@@ -57,6 +70,22 @@ export const SocialMedias = () => {
         onClick={() =>
           window.open(
             "https://www.linkedin.com/in/bruno-henrique-ferreira-marinho-cec%C3%ADlio-811858222/",
+            "_blank"
+          )
+        }
+      />
+      <FaWhatsapp
+        color={whatsappColor}
+        size={32}
+        style={{
+          transform: whatsappHovered ? "scale(1.3)" : "scale(1)",
+          transition: "transform 0.2s ease-in-out",
+        }}
+        onMouseEnter={() => handleEnterWhatsapp(setWhatsappHovered)}
+        onMouseLeave={() => handleLeaveWhatsapp(setWhatsappHovered)}
+        onClick={() =>
+          window.open(
+            "https://api.whatsapp.com/send/?phone=5561981030795&text&type=phone_number&app_absent=0",
             "_blank"
           )
         }
