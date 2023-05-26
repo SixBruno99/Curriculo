@@ -87,7 +87,7 @@ export const AboutMe = () => {
               <ListItem>React</ListItem>
               <ListItem>Nextjs</ListItem>
               <ListItem>Versionamento de código (Git, GitHub)</ListItem>
-              <ListItem>UX/UI design básico</ListItem>
+              <ListItem>Conhecimentos em UX/UI e experiência do usuário</ListItem>
             </UnorderedList>
           </AccordionPanel>
         </AccordionItem>

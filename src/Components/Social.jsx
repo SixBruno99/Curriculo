@@ -5,15 +5,20 @@ import { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
+// import { FiMail } from "react-icons/fi";
 
 export const SocialMedias = () => {
-  const [githubColor, setGithubColor] = useState("white");
-  const [linkedinColor, setLinkedinColor] = useState("white");
-  const [whatsappColor, setWhatsappColor] = useState("white");
+  const defautColor = "white";
+
+  const [githubColor, setGithubColor] = useState(defautColor);
+  const [linkedinColor, setLinkedinColor] = useState(defautColor);
+  const [whatsappColor, setWhatsappColor] = useState(defautColor);
+  // const [emailColor, setEmailColor] = useState(defautColor);
 
   const [githubHovered, setGithubHovered] = useState(false);
   const [linkedinHovered, setLinkedinHovered] = useState(false);
   const [whatsappHovered, setWhatsappHovered] = useState(false);
+  // const [emailHovered, setEmailHovered] = useState(false);
 
   const handleEnterGithub = (setter) => {
     setter(true);
@@ -22,7 +27,7 @@ export const SocialMedias = () => {
 
   const handleLeaveGithub = (setter) => {
     setter(false);
-    setGithubColor("white");
+    setGithubColor(defautColor);
   };
 
   const handleEnterLinkedin = (setter) => {
@@ -32,7 +37,7 @@ export const SocialMedias = () => {
 
   const handleLeaveLinkedin = (setter) => {
     setter(false);
-    setLinkedinColor("white");
+    setLinkedinColor(defautColor);
   };
 
   const handleEnterWhatsapp = (setter) => {
@@ -42,8 +47,18 @@ export const SocialMedias = () => {
 
   const handleLeaveWhatsapp = (setter) => {
     setter(false);
-    setWhatsappColor("white");
+    setWhatsappColor(defautColor);
   };
+
+  // const handleEnterEmail = () => {
+  //   setEmailHovered(true);
+  //   setEmailColor("#D44638");
+  // };
+
+  // const handleLeaveEmail = () => {
+  //   setEmailHovered(false);
+  //   setEmailColor(defautColor);
+  // };
 
   return (
     <Flex px="1rem" py="1rem" justifyContent="center" gap="1rem">
@@ -90,6 +105,20 @@ export const SocialMedias = () => {
           )
         }
       />
+      {/* <FiMail
+        color={emailColor}
+        size={32}
+        style={{
+          transform: emailHovered ? "scale(1.3)" : "scale(1)",
+          transition: "transform 0.2s ease-in-out",
+        }}
+        onMouseEnter={handleEnterEmail}
+        onMouseLeave={handleLeaveEmail}
+        onClick={window.open(
+          "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlKpBdHqJgfrkQpqxkKRFwDvnKpWXnqcsSwGCZhXqShLqtCnmbScmmsrSKtdFpmDLCBRPL",
+          "_blank"
+        )}
+      /> */}
     </Flex>
   );
 };

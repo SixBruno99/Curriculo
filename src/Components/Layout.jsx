@@ -1,7 +1,7 @@
 import { Box, Flex, Grid, GridItem, Text, useMediaQuery  } from "@chakra-ui/react";
 
 // Components imports
-import { Contacts } from "./Contacts";
+// import { Contacts } from "./Contacts";
 import { Profile } from "./Profile";
 import { Skills } from "./Skills/index.jsx";
 import { AboutMe } from "./About";
@@ -18,9 +18,9 @@ export const Layout = () => {
           <Box justifyContent="center">
             <Profile />
           </Box>
-          <Contacts />
-          <Skills />
           <SocialMedias />
+          <Skills />
+          {/* <Contacts /> */}
         </GridItem>
         <GridItem bg="#181818">
           <Flex h="12rem" alignItems="center">
