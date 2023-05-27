@@ -65,6 +65,7 @@ export const SocialMedias = () => {
       <AiFillGithub
         color={githubColor}
         size={32}
+        cursor="pointer"
         style={{
           transform: githubHovered ? "scale(1.3)" : "scale(1)",
           transition: "transform 0.2s ease-in-out",
@@ -76,6 +77,7 @@ export const SocialMedias = () => {
       <IoLogoLinkedin
         color={linkedinColor}
         size={32}
+        cursor="pointer"
         style={{
           transform: linkedinHovered ? "scale(1.3)" : "scale(1)",
           transition: "transform 0.2s ease-in-out",
@@ -92,6 +94,7 @@ export const SocialMedias = () => {
       <FaWhatsapp
         color={whatsappColor}
         size={32}
+        cursor="pointer"
         style={{
           transform: whatsappHovered ? "scale(1.3)" : "scale(1)",
           transition: "transform 0.2s ease-in-out",
@@ -108,6 +111,7 @@ export const SocialMedias = () => {
       {/* <FiMail
         color={emailColor}
         size={32}
+        cursor="pointer"
         style={{
           transform: emailHovered ? "scale(1.3)" : "scale(1)",
           transition: "transform 0.2s ease-in-out",
