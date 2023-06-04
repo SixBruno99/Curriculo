@@ -13,11 +13,12 @@ import {
 import {
   FirstJobDescripition,
   SecondJobDescripition,
+  ThirdDescripition,
 } from "./Modals/JobDescripition";
 
 export const Experience = () => {
   return (
-    <Stepper colorScheme="orange" orientation="vertical" height="16rem" gap="0" mb="2rem">
+    <Stepper colorScheme="orange" orientation="vertical" height="24rem" gap="0" mb="2rem">
       <Step>
         <StepIndicator>
           <StepStatus active={<StepNumber color="white" />} />
@@ -35,6 +36,16 @@ export const Experience = () => {
         <Box>
           <SecondJobDescripition />
           <Text {...textStyles}>Novembro/2022 - Março/2023</Text>
+        </Box>
+        <StepSeparator />
+      </Step>
+      <Step>
+        <StepIndicator>
+          <StepStatus active={<StepNumber color="white" />} />
+        </StepIndicator>
+        <Box>
+          <ThirdDescripition />
+          <Text {...textStyles}>Março/2023 - Atual</Text>
         </Box>
       </Step>
     </Stepper>

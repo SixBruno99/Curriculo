@@ -54,6 +54,17 @@ export const Skills = () => {
         value={50}
       />
       <Flex {...flexStyle}>
+        <SiFlutter  size={20} style={{ color: "#34C759 " }} />
+        <Text {...textStyles}>Flutter</Text>
+      </Flex>
+      <Progress
+        hasStripe
+        colorScheme="whatsapp"
+        bg="rgba(52, 199, 89, 0.75)"
+        isAnimated={true}
+        value={50}
+      />
+      <Flex {...flexStyle}>
         <SiGit size={20}style={{ color: "#FFFFFF " }} />
         <Text {...textStyles}>Git</Text>
       </Flex>
@@ -63,17 +74,6 @@ export const Skills = () => {
         bg="#181818"
         isAnimated={true}
         value={50}
-      />
-      <Flex {...flexStyle}>
-        <SiFlutter  size={20} style={{ color: "#34C759 " }} />
-        <Text {...textStyles}>Flutter</Text>
-      </Flex>
-      <Progress
-        hasStripe
-        colorScheme="whatsapp"
-        bg="rgba(52, 199, 89, 0.75)"
-        isAnimated={true}
-        value={30}
       />
       <Languages />
     </Box>
