@@ -83,7 +83,6 @@ export const SecondJobDescripition = () => {
           <ModalHeader color="white">
             Estagiário desenvolvedor frontend
           </ModalHeader>
-          <ModalCloseButton />
           <ModalBody color="white">
             Projeto no qual tive a oportunidade de estudar e aplicar os
             conhecimentos adquiridos em react através da construção de
@@ -126,7 +125,6 @@ export const ThirdDescripition = () => {
           <ModalHeader color="white">
             FreeLancer desenvolvedor frontend
           </ModalHeader>
-          <ModalCloseButton />
           <ModalBody color="white">
             Projeto em andamento no qual estou desenvolvendo um aplicativo
             utilizando o Flutter, nesse projeto estou aprimorando minhas
