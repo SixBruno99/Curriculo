@@ -38,7 +38,6 @@ export const Contacts = () => {
       <Flex
         alignItems="center"
         justifyContent="center"
-        paddingLeft={isLargerThan516 ? "1rem" : "0"}
         py="0.5rem"
       >
         <Box display={isLargerThan764 ? "flex" : "none"}>

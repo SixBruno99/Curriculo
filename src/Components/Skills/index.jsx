@@ -4,7 +4,7 @@ import './index.css';
 // Icons imports
 import { FaHtml5, FaCss3, FaJsSquare, FaReact } from "react-icons/fa";
 import { SiGit, SiFlutter } from "react-icons/si";
-import { Languages } from "./languages";
+import { Languages } from "./Languages";
 
 export const Skills = () => {
   return (

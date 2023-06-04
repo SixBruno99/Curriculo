@@ -14,6 +14,7 @@ import { Skills } from "./Skills/index.jsx";
 import { AboutMe } from "./About";
 import { Experience } from "./Experience/Job";
 import { SocialMedias } from "./Social";
+import { TypingText } from "./AnimatedText";
 
 export const Layout = () => {
   const [isLargerThan764] = useMediaQuery("(min-width: 764px)");
@@ -30,8 +31,9 @@ export const Layout = () => {
           <Skills />
         </GridItem>
         <GridItem bg="#181818">
-          <Flex h="12rem" alignItems="center">
-            <Text
+          <Flex h={isLargerThan764 ? "12rem" : "16rem"} alignItems="center">
+          <TypingText text=" Henrique Ferreira Marinho Cecílio" delay={100} />
+            {/* <Text
               w="100%"
               fontSize={isLargerThan764 ? "40px" : "26px"}
               fontWeight="bold"
@@ -39,7 +41,7 @@ export const Layout = () => {
               color="white"
             >
               Bruno Henrique Ferreira Marinho Cecílio
-            </Text>
+            </Text> */}
           </Flex>
           <Box maxW={isLargerThan764 ? "80%" : "90%"} margin="auto">
             <AboutMe />
