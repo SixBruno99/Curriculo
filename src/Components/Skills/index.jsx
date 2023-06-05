@@ -1,10 +1,11 @@
 import { Box, Flex, Progress, Text } from "@chakra-ui/react";
 import './index.css';
 
+import { Languages } from './languages';
+
 // Icons imports
 import { FaHtml5, FaCss3, FaJsSquare, FaReact } from "react-icons/fa";
 import { SiGit, SiFlutter } from "react-icons/si";
-import { Languages } from "./Languages";
 
 export const Skills = () => {
   return (
