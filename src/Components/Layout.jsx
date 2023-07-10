@@ -18,7 +18,7 @@ import { TypingText } from "./AnimatedText";
 
 export const Layout = () => {
   const [isLargerThan764] = useMediaQuery("(min-width: 764px)");
-
+  
   return (
     <Box maxW={840} marginX="auto">
       <Grid gridTemplateColumns="1fr 2fr" minHeight="100vh">
@@ -32,16 +32,10 @@ export const Layout = () => {
         </GridItem>
         <GridItem bg="#181818">
           <Flex h={isLargerThan764 ? "12rem" : "16rem"} alignItems="center">
-          <TypingText text=" Henrique Ferreira Marinho Cecílio" delay={100} />
-            {/* <Text
-              w="100%"
-              fontSize={isLargerThan764 ? "40px" : "26px"}
-              fontWeight="bold"
-              textAlign="center"
-              color="white"
-            >
-              Bruno Henrique Ferreira Marinho Cecílio
-            </Text> */}
+            <TypingText
+              text=" Bruno Henrique Ferreira Marinho Cecílio"
+              delay={100}
+            />
           </Flex>
           <Box maxW={isLargerThan764 ? "80%" : "90%"} margin="auto">
             <AboutMe />

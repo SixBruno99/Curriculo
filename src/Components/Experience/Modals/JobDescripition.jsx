@@ -41,9 +41,9 @@ export const FirstJobDescripition = () => {
           </ModalHeader>
           <ModalBody color="white">
             Projeto no qual foi desenvolvido habilidades com a ferramenta do
-            Pacote Office Excel. A intenção do projeto tinha foco no ensinamento
-            prático de como utilizar a ferramenta com exemplos práticos de
-            situações do dia a dia.
+            Pacote Office Excel. Desenvolvimento de habilidades especificas como
+            a comunicação e o trabalho em equipe foram colocados em prática
+            durante o processo.
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Fechar</Button>
@@ -83,9 +83,12 @@ export const SecondJobDescripition = () => {
             Estagiário desenvolvedor frontend
           </ModalHeader>
           <ModalBody color="white">
-            Projeto no qual tive a oportunidade de estudar e aplicar os
-            conhecimentos adquiridos em react através da construção de
-            landing-pages como teste de conhecimento.
+            Tive a oportunidade de participar de um projeto onde aprendi e
+            apliquei React. Fui guiado por uma equipe experiente, o que me
+            permitiu aprimorar minhas habilidades de organização de código e
+            aprender as melhores técnicas de versionamento. Além disso, adquiri
+            conhecimento sobre boas práticas para melhorar a experiência do
+            usuário.
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Fechar</Button>
@@ -127,9 +130,9 @@ export const ThirdDescripition = () => {
           <ModalBody color="white">
             Projeto em andamento no qual estou desenvolvendo um aplicativo
             utilizando o Flutter, nesse projeto estou aprimorando minhas
-            habilidade de construção de layouts com outra linguagem e
-            manipulando váriaveis globais no projeto para realizar o controle
-            de estoque de produtos.
+            habilidade de construção de layouts e requisições com o servidor.
+            Além de ter a experiência como líder de equipe e flexibilidade de
+            função, como analista de requisitos.
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Fechar</Button>
