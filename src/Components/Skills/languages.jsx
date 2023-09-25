@@ -30,7 +30,7 @@ export const Languages = () => {
         colorScheme="whiteAlpha"
         bg="rgba(255,255,255, 0.1)"
         isAnimated={true}
-        value={60}
+        value={70}
       />
       
       {/* <FlagIcon code="br" /> */}

@@ -37,8 +37,8 @@ export const AboutMe = () => {
           <AccordionPanel pb={4}>
             <Text {...textStyles}>
               Sou estudante de Ciências da Computação! Atuo como desenvolvedor
-              frontend, tenho 5 meses de experiêcia programando em React para
-              web e 4 meses programando em Flutter para mobile. Estou em busca
+              frontend, tenho 6 meses de experiêcia programando em React para
+              web e 6 meses programando em Flutter para mobile. Estou em busca
               de oportunidades para aprimorar minhas habilidades técnicas e
               desenvolver meu conhecimento participando de projetos
               desafiadores. Tenho um propósito de crescer como profissional e
@@ -64,6 +64,7 @@ export const AboutMe = () => {
               <ListItem>JavaScript</ListItem>
               <ListItem>React</ListItem>
               <ListItem>Nextjs</ListItem>
+              <ListItem>Flutter</ListItem>
               <ListItem>Versionamento de código (Git, GitHub)</ListItem>
               <ListItem>
                 Conhecimentos em UX/UI e experiência do usuário
