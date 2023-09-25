@@ -41,7 +41,7 @@ export const Skills = () => {
         colorScheme="yellow"
         bg="rgba(247, 223, 30, 0.6)"
         isAnimated={true}
-        value={60}
+        value={70}
       />
       <Flex {...flexStyle}>
         <FaReact className="rotate" size={20} style={{ color: "#34AEEB " }} />
@@ -52,7 +52,7 @@ export const Skills = () => {
         colorScheme="cyan"
         bg="rgba(97, 218, 251, 0.5)"
         isAnimated={true}
-        value={50}
+        value={60}
       />
       <Flex {...flexStyle}>
         <SiFlutter  size={20} style={{ color: "#34C759 " }} />
@@ -66,15 +66,15 @@ export const Skills = () => {
         value={50}
       />
       <Flex {...flexStyle}>
-        <SiGit size={20}style={{ color: "#FFFFFF " }} />
+        <SiGit size={20}style={{ color: "#F05033 " }} />
         <Text {...textStyles}>Git</Text>
       </Flex>
       <Progress
         hasStripe
-        colorScheme="blackAlpha"
-        bg="#181818"
+        colorScheme="orange"
+        bg="rgba(240, 80, 51, 0.5)"
         isAnimated={true}
-        value={50}
+        value={80}
       />
       <Languages />
     </Box>
