@@ -18,7 +18,13 @@ import {
 
 export const Experience = () => {
   return (
-    <Stepper colorScheme="orange" orientation="vertical" height="24rem" gap="0" mb="2rem">
+    <Stepper
+      colorScheme="orange"
+      orientation="vertical"
+      height="24rem"
+      gap="0"
+      mb="2rem"
+    >
       <Step>
         <StepIndicator>
           <StepStatus active={<StepNumber color="white" />} />
@@ -35,7 +41,7 @@ export const Experience = () => {
         </StepIndicator>
         <Box>
           <SecondJobDescripition />
-          <Text {...textStyles}>Novembro/2022 - Março/2023</Text>
+          <Text {...textStyles}>Maio/2022 - Novembro/2022</Text>
         </Box>
         <StepSeparator />
       </Step>
@@ -45,7 +51,7 @@ export const Experience = () => {
         </StepIndicator>
         <Box>
           <ThirdDescripition />
-          <Text {...textStyles}>Março/2023 - Atual</Text>
+          <Text {...textStyles}>Novembro/2022 - Atual</Text>
         </Box>
       </Step>
     </Stepper>

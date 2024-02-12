@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { Layout } from "./Components/Layout";
+import { Layout } from "./Components/Layout/index";
 
 export const App = () => {
   return (

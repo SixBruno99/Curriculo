@@ -113,7 +113,7 @@ export const ThirdDescripition = () => {
         colorScheme="orange"
         color="white"
       >
-        FreeLancer
+        Dev Frontend
       </Button>
 
       <Modal
@@ -124,15 +124,14 @@ export const ThirdDescripition = () => {
       >
         <ModalOverlay />
         <ModalContent bg="#181818">
-          <ModalHeader color="white">
-            FreeLancer desenvolvedor frontend
-          </ModalHeader>
+          <ModalHeader color="white">Desenvolvedor frontend web</ModalHeader>
           <ModalBody color="white">
-            Projeto em andamento no qual estou desenvolvendo um aplicativo
-            utilizando o Flutter, nesse projeto estou aprimorando minhas
-            habilidade de construção de layouts e requisições com o servidor.
-            Além de ter a experiência como líder de equipe e flexibilidade de
-            função, como analista de requisitos.
+            Com o desenvolvimento em react desenvolvi diversas habilidades como
+            web design, navegação de telas, conexões com backend com tratativa
+            de erros, manipulação de dados fictícios para testes locais, layout
+            responsivo, configuração de projeto, padrão de código e código
+            limpo, criação de formulários, utilização do ChakraUI como recurso
+            de estilização, atualizações de tarefas através do trello.
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Fechar</Button>

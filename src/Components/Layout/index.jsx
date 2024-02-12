@@ -8,20 +8,20 @@ import {
 } from "@chakra-ui/react";
 
 // Components imports
-import { Contacts } from "./Contacts";
-import { Profile } from "./Profile";
-import { Skills } from "./Skills/index.jsx";
-import { AboutMe } from "./About";
-import { Experience } from "./Experience/Job";
-import { SocialMedias } from "./Social";
-import { TypingText } from "./AnimatedText";
+import { Contacts } from "../Contacts.jsx";
+import { Profile } from "../Profile.jsx";
+import { Skills } from "../Skills/index.jsx";
+import { AboutMe } from "../About.jsx";
+import { Experience } from "../Experience/Job.jsx";
+import { SocialMedias } from "../Social.jsx";
+import { TypingText } from "../AnimatedText.jsx";
 
 export const Layout = () => {
   const [isLargerThan764] = useMediaQuery("(min-width: 764px)");
-  
+
   return (
     <Box maxW={840} marginX="auto">
-      <Grid gridTemplateColumns="1fr 2fr" minHeight="100vh">
+      <Grid gridTemplateColumns="1fr 2fr" minHeight="100vh" >
         <GridItem bg="black">
           <Box justifyContent="center">
             <Profile />

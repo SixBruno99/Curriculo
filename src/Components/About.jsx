@@ -36,20 +36,13 @@ export const AboutMe = () => {
           </h2>
           <AccordionPanel pb={4}>
             <Text {...textStyles}>
-              Sou estudante de Ciências da Computação! Atuo como desenvolvedor
-              frontend, tenho 6 meses de experiêcia programando em React para
-              web e 6 meses programando em Flutter para mobile. Estou em busca
-              de oportunidades para aprimorar minhas habilidades técnicas e
-              desenvolver meu conhecimento participando de projetos
-              desafiadores. Tenho um propósito de crescer como profissional e
-              estou sempre buscando novos desafios para melhorar a cada dia.
-              Estou confiante em minha capacidade de contribuir positivamente em
-              um ambiente de equipe e, consequentemente, avançar em minha
-              carreira de desenvolvedor.
+              Sou estudante de Ciências da Computação e desenvolvedor frontend.
+              Estou em busca de oportunidades para melhorar minhas habilidades
+              técnicas e desenvolver meu conhecimento participando de projetos
+              desafiadores.
             </Text>
           </AccordionPanel>
         </AccordionItem>
-
 
         <AccordionItem>
           <AccordionButton>
@@ -60,10 +53,11 @@ export const AboutMe = () => {
           </AccordionButton>
           <AccordionPanel pb={4}>
             <UnorderedList {...textStyles}>
-              <ListItem>HTML e CSS</ListItem>
-              <ListItem>JavaScript</ListItem>
+              <ListItem>TypeScript</ListItem>
               <ListItem>React</ListItem>
               <ListItem>Nextjs</ListItem>
+              <ListItem>HTML e CSS</ListItem>
+              <ListItem>JavaScript</ListItem>
               <ListItem>Flutter</ListItem>
               <ListItem>Versionamento de código (Git, GitHub)</ListItem>
               <ListItem>
@@ -104,7 +98,7 @@ export const AboutMe = () => {
               <Text color="blueviolet">
                 UniCeub Centro de Ensino Unificado de Brasília
               </Text>
-              Ensino Superior cursando 6° semestre
+              Ensino Superior cursando 7° semestre
             </Box>
             <Box {...textStyles}>
               <Text color="yellow.400">Colégio La Salle Águas Claras</Text>
