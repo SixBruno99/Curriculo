@@ -37,9 +37,8 @@ export const AboutMe = () => {
           <AccordionPanel pb={4}>
             <Text {...textStyles}>
               Sou estudante de Ciências da Computação e desenvolvedor frontend.
-              Estou em busca de oportunidades para melhorar minhas habilidades
-              técnicas e desenvolver meu conhecimento participando de projetos
-              desafiadores.
+              Estou em constante evolução, desenvolvendo as habilidades e
+              superando meus limites.
             </Text>
           </AccordionPanel>
         </AccordionItem>
